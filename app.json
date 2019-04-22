@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/test/index",
+        "pages/detail/index"
+    ],
+    "usingComponents": {
+    },
+    "networkTimeout": {
+        "request": 1000000
+    },
+    "window": {
+        "enablePullDownRefresh": false
+    },
+    "navigateToMiniProgramAppIdList": [
+        "wxf3f963b724069c29",
+        "wx5862aca4afa95ef4",
+        "wx835231fcea421e75",
+        "wx3dce3323eec3c8b1",
+        "wxeb643ff612c21033"
+    ],
+    "debug": false
+}

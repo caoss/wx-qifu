@@ -1,0 +1,29 @@
+<!--pages/home.wxml-->
+<view class="home-con">
+    <canvas hidden='{{canvasHide}}' class='forCanvas' style="width:100%; height:100%; background-color:#FFBC00;" canvas-id="qrCanvas"></canvas>
+    <image class="home_bg" src="../../images/bg.png" mode="aspectFit" lazy-load="false" binderror="" bindload="" />
+    <view class='detail_pop'></view>
+    <view class='detail_con'>
+        <view class='detail_img_con'>
+            <image class="detail_img" src="{{ imgUrl }}" bindtap='_tapPreview'  mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        <view class='detail_btns'>
+            <view>
+                <image class="btn_share" bindtap='_tapPreview' src="../../images/btn_share.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            </view>
+            <view>
+                <image  class="btn_share"   bindtap='_tapDownload'   src="../../images/btn_save.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            </view>
+        </view>
+        <view class='detail_btns'>
+            <view>
+                <image class="btn_next" bindtap='getImg' src="../../images/btn_next.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+            </view>
+        </view>
+        <view class="action-pos" bindtap='_redirectH5' >
+            <image src="../../images/h5_banner2.png" class='act_img'></image>
+        </view>
+    </view>
+    <box />
+    <ad_swiper />
+</view>

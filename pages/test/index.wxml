@@ -1,0 +1,4 @@
+<!--pages/home.wxml-->
+<view class="home-con">
+     <canvas hidden='{{canvasHide}}' style="width:100%; height:100%; background-color:#ddd" canvas-id="qrCanvas"></canvas> 
+</view>

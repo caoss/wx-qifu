@@ -1,0 +1,11 @@
+<!--pages/home.wxml-->
+<view class="home-con">
+    <view class='home_bg_con'>
+        <image class="home_bg" bindtap='_loadMoreWallPaper' src="../../images/home_bg.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        <view class='home_btn_con'> 
+            <image bindtap='_toDetail' class="btn_pray" src="../../images/btn_pray.png" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+    </view>
+    <box />
+    <ad_swiper />
+</view>

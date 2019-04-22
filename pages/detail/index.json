@@ -1,0 +1,12 @@
+{
+    "navigationBarBackgroundColor": "#FFBC00",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "新年吉祥符",
+    "backgroundColor": "#ed662c",
+    "backgroundTextStyle": "dark",
+    "disableScroll": true,
+    "usingComponents": { 
+        "box": "/components/box/index",
+        "ad_swiper": "/components/ad-swiper/index"
+    }
+}
